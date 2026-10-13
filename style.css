@@ -75,6 +75,11 @@ p.indent{
     padding-left: 1em;
 }
 
+p.hanging{
+    margin-left: 4em;
+    text-indent: -3em;
+}
+
 h2{
     font-family:'メイリオ', 'Meiryo','ＭＳ ゴシック','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
 }
@@ -92,4 +97,8 @@ h2{
 
 .left{
     text-align: left;
+}
+
+mark.green{
+    background-color: lime;
 }
